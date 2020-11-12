@@ -1,0 +1,28 @@
+.padre{
+  
+  background-color : red;
+  display = block;
+  
+  width: 250px;
+  height: 300px;
+  
+  position : relative;
+
+  left: calc(50% - 150px);
+  
+}
+
+.padre::after{
+  
+  content: "";
+  display: block;
+  height: 95%;
+  width: 95%;
+  background-color: green;
+  border-radius: 10px;
+  position: absolute;
+  left: 8px;
+  top : 8px;
+  
+  
+}
